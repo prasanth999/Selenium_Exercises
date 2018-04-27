@@ -1,0 +1,23 @@
+ Initialize the Data type , variables and values - Using scanner get the value of 
+ Palindrome number 
+ Scanner pal = new Scanner(System.in);
+ System.out.println("Enter the palindrome numbers");
+ int numb = pal.nextInt();
+ numb.close();
+ int sum=0,rem,quo,temp;
+ calculate the palindrome number
+ temp=numb;
+		while(numb>0)
+		{
+			rem = numb%10;
+			sum = (sum*10)+rem;
+			numb=numb/10;
+			}
+ check given number is palindrome or not
+ check the number is plaindrome or not 
+ if (temp==sum)
+  then print palindrome 
+  System.outprintln("Given number is palindrome");
+ 
+else  then print not palindrome 
+System.out.println("Given number is not palindrom");

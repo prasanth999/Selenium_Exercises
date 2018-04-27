@@ -1,0 +1,21 @@
+
+Intialize the data type and variables
+int n, num = 1;
+Get the number of rows of floyd's triangle
+	      Scanner in = new Scanner(System.in);
+	 
+	      System.out.println("Enter the number of rows of floyd's triangle you want");
+	      n = in.nextInt();
+	 
+	      System.out.println("Floyd's triangle :-");
+	 Print the floyd's triangle based on the user input
+	      for ( int i = 1 ; i <= n ; i++ )
+	      {
+	         for ( int j = 1 ; j <= i ; j++ )
+	         {
+	            System.out.print(num+" ");
+	            num++;
+	         }
+	 
+	         System.out.println();
+	      }

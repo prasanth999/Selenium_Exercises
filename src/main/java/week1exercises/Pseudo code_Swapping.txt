@@ -1,0 +1,16 @@
+ Initialize the Data type , variables and values - 
+ int a=2 , int b=3;
+print the values before swaping
+System.out.println("Before swapping \t");
+System.out.println("A value: \t"+a);
+System.out.println("B value: \t"+b); 
+swap the 2 number using below 
+a=a+b;
+b=a-b;
+a=a-b;
+printing the number after swapping
+System.out.println("After swapping \t");
+System.out.println("A value: \t"+a);
+System.out.println("B value: \t"+b); 
+} 
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- Parallel execution -->
+<suite name="TestPara" parallel="classes" thread-count="2">
+<!-- Sequential Execution -->
+<!-- <suite name="Suite"> -->
+
+  <test name="TestSeq">
+    <classes>
+      <class name="week4day1.CreateLead"/>
+      <class name="week4day1.EditLead"/>
+      <class name="week4day1.MergeLeads"/>
+      <class name="week4day1.DeleteLead"/>
+      <class name="week4day1.DuplicateLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

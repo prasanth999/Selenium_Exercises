@@ -1,0 +1,44 @@
+Get the integer values of 2 two number and 1 string
+Scanner samp = new Scanner(System.in);
+System.out.println("Enter the first value");
+int a=sam.nextInt();
+System.out.println("Enter the second value");
+int b=sam.nextInt();
+System.out.println("Enter the operation to perform - Add/Sub/Multiply/Divison");
+String arithm=sam.nextInt();
+Intialize the variable int sum;
+validate the arithmetic operations such as addition , subtraction , multiplication and divison
+using switch case
+switch(arithm)
+{
+case "Add":
+{
+sum=a+b;
+System.out.println("Addition" + sum);
+break;
+}
+case "Sub":
+{
+sum=a-b;
+System.out.println("Subtraction" + sum);
+break;
+}
+case "Multiply":
+{
+sum=a*b;
+System.out.println("Multiplication" + sum);
+break;
+}
+case "Divison":
+{
+sum=a/b;
+System.out.println("Divison" + sum);
+break;
+}
+default:
+{
+System.out.println("Invalid Arithmetic operations");
+
+}
+
+

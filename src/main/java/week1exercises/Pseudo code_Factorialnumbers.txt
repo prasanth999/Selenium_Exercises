@@ -1,0 +1,14 @@
+ Initialize the Data type , variables and values - Using scanner get the value of 
+ Factorial number 
+ Scanner samp = new Scanner(System.in);
+ System.out.println("Enter the factorial numbers");
+ int numb = samp.nextInt();
+ int fact=1;
+ Check number is positive or negative number if(numb<0){
+ if number is less than 0 then print number should be Positive
+ System.out.println("Number should be positive integer");}
+ else if number is positive integer the go ahead with below to calculate the factorial values
+ Use the for loop - for (int i=1;i<=numb;i++){
+ Calculate the factorial values int fact=fact*i;}
+ print the factorial number
+ System.out.println("Factorial number for"+numb "is"+fact);
