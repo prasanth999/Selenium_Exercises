@@ -1,5 +1,6 @@
 package ReuseMethods;
 
+import java.awt.RenderingHints.Key;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -15,6 +16,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.InvalidElementStateException;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.NoSuchFrameException;
@@ -112,7 +114,7 @@ public class SeMethods extends Reporter implements WdMethods{
 	public void type(WebElement ele, String data) {
 		try {
 			ele.clear();
-			ele.sendKeys(data);
+			ele.sendKeys(data);			
 			String x = ""+ele;
 			reportStep("The data: "+data+" entered successfully in the field :"+ele, "PASS");
 		} catch (InvalidElementStateException e) {
@@ -488,6 +490,12 @@ public void dragDrop(WebElement ele,WebElement ele1) {
 		} catch (Exception e) {
 			reportStep("Unexpected error occured in Browser","FAIL", false);
 		}
+	}
+
+	
+	public void type1(WebElement ele, String data) {
+		// TODO Auto-generated method stub
+		
 	}
 
 

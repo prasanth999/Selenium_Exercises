@@ -40,7 +40,7 @@ public class Repeatingvalues {
 
 		for (WebElement price : prices) {
 
-			int amt = Integer.parseInt(price.getText().replaceAll("[₹,]", ""));
+			int amt = Integer.parseInt(price.getText().replaceAll("[â‚¹,]", ""));
 
 			System.out.println(amt);
 
