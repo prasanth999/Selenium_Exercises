@@ -45,7 +45,7 @@ public class RedBus {
 		Set<String> transportName = new TreeSet<String>();
 		for (WebElement op : opraters) {
 			transportName.add(op.getText());
-			//System.out.println(op.getText());
+			System.out.println(op.getText());
 		}
 		System.out.println(transportName);
 		

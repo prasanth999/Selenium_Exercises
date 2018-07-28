@@ -16,9 +16,11 @@ public class Reg_Creditcard {
 		String txt1="prasanth.sundaresan@gmail.com";
 		String patt1 = "\\w{1,}.\\D{1,}.\\D{1,}";
 		Pattern p = Pattern.compile(patt);
+		Pattern p1 = Pattern.compile(patt1);
 		Matcher m = p.matcher(txt);
+		Matcher m1 = p1.matcher(txt1);
 		System.out.println(m.matches());
-		System.out.println(m.matches());
+		System.out.println(m1.matches());
 		
 		/*while(m.find())
 		{

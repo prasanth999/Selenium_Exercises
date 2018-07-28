@@ -49,5 +49,21 @@
 			<artifactId>cucumber-java8</artifactId>
 			<version>2.3.1</version>
 		</dependency>
+		<dependency>
+    <groupId>com.jayway.restassured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>2.9.0</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>com.jayway.restassured</groupId>
+    <artifactId>json-path</artifactId>
+    <version>2.9.0</version>
+</dependency>
+<dependency>
+    <groupId>com.github.fge</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>2.2.6</version>
+</dependency>
 	</dependencies>
 </project>

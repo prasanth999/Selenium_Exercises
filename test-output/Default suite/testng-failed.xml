@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="week2day2.Landsend">
+      <class name="challenge.AlertSnapUsingRobotClass">
         <methods>
-          <include name="salesOrder"/>
+          <include name="takeSnap"/>
         </methods>
-      </class> <!-- week2day2.Landsend -->
+      </class> <!-- challenge.AlertSnapUsingRobotClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
